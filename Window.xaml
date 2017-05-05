@@ -1,0 +1,7 @@
+<Window xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" Title="$Title" Height="500" Width="700">
+    <Grid>
+        <DockPanel>
+            <WebBrowser Name="WebBrowser" DockPanel.Dock="Top" Margin="30"></WebBrowser>
+        </DockPanel>
+    </Grid>
+</Window>
