@@ -92,13 +92,6 @@
         window.external.runPowerShell(script + ";Get-SessionDays", popNav);
     }
 
-    function endTask(taskName) {
-        window.external.runPowerShell("Stop-Process -Name " + taskName, returnFunction);
-        setTimeout(function () {
-            updateProcesses();
-        }, 1000);
-    }
-
     $('#Refresh').on('click', function (e) {
         getSessionDays();
     });
